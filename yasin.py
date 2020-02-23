@@ -49,7 +49,7 @@ art = bahasa_indo()
 
 for n,i in enumerate(arb):
     if n == 20 or n == 40 or n == 60 or n == 80:
-	raw_input('\x1b[37;1m\nTekan apa saja untuk melanjutkan membaca')
+	input('\x1b[37;1m\nTekan apa saja untuk melanjutkan membaca')
 	os.system('clear')
     else:
 	pass
