@@ -54,4 +54,4 @@ for n,i in enumerate(arb):
     else:
 	pass
     print('\x1b[37;1m['+str(n+1)+']'+'\nArab  : \x1b[34;1m' +i);print('\x1b[37;1mLatin : \x1b[36;1m' +ltn[n]);print('\x1b[37;1mArti  : \x1b[33;1m'+art[n])
-
+    print
