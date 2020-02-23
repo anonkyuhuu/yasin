@@ -49,9 +49,8 @@ art = bahasa_indo()
 
 for n,i in enumerate(arb):
     if n == 20 or n == 40 or n == 60 or n == 80:
-	input('\x1b[37;1m\nTekan apa saja untuk melanjutkan membaca')
-	os.system('clear')
+        input('\x1b[37;1m\nTekan apa saja untuk melanjutkan membaca')
+        os.system('clear')
     else:
-	pass
-    print('\x1b[37;1m['+str(n+1)+']'+'\nArab  : \x1b[34;1m' +i);print('\x1b[37;1mLatin : \x1b[36;1m' +ltn[n]);print('\x1b[37;1mArti  : \x1b[33;1m'+art[n])
-    print
+        pass
+    print('\x1b[37;1m['+str(n+1)+']'+'\nArab  : \x1b[34;1m' +i);print('\x1b[37;1mLatin : \x1b[36;1m' +ltn[n]);print('\x1b[37;1mArti  : \x1b[33;1m'+art[n]+'\n')
